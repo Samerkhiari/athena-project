@@ -1,0 +1,460 @@
+@import url('https://fonts.cdnfonts.com/css/georgiano');
+@import url('https://fonts.cdnfonts.com/css/baskerville');
+
+body {
+  margin: 0;
+  background-image: url(../src//img/background-home.jpg);
+    margin-right: 50px;
+}
+
+/* Navigation bar */
+.NAV {
+  display: inline-block;
+  position: sticky;
+  font-family: 'GEORGIANO', sans-serif;
+  margin-left: -150px ;
+
+}
+#Athena-logo{
+  height: 70px;
+  float: left;
+  padding: 80px;
+}
+.Nav-text{
+  display: flex;
+  align-items: center;
+  border: none;
+  font-family: 'GEORGIANO', sans-serif;
+  background-color: transparent;
+  gap: 100px;
+  color: white;
+  font-size: 30px;
+  margin-top: 100PX;
+  margin-left: 10px;
+}
+
+.home-btn{
+  border: 5px;
+  border-style: white solid;
+}
+
+/* Home body */
+.home-txt{
+  text-align: start;
+  margin-top: -60px;
+  margin-left: 250px;
+  font-family: 'Baskerville BT', sans-serif;
+  font-size: 80px;
+  background: -webkit-linear-gradient(90deg, rgba(247,237,185,1) 0%, rgba(232,196,169,1) 25%, rgba(219,154,151,1) 50%, rgba(198,186,136,1) 72%, rgba(167,195,112,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#paragraph{
+  font-family: 'Baskerville BT', sans-serif;
+  font-size: 16px;
+  color: white;
+  margin-top:-60px;
+  margin-left:260px;
+  text-align: start;
+  text-justify: inter-word;
+}
+.logo_png{
+  display: flex;
+ gap: 50px;
+ filter: invert(100%);
+ height: 30px;
+ width: 30px;
+margin-left: 400px;
+margin-right:auto;
+
+}
+ /* cards */
+ .grid-container {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns:auto auto; 
+  grid-gap: 10px; 
+  padding: 20px;
+  margin-left: 100px;
+  justify-content: end;
+  margin-top: -500px;
+  
+}
+.card {
+  background-color: #232427;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  color: white;
+  
+
+}
+.Tasks{
+  display: flex;
+  justify-content: space-between;
+}
+
+.title{
+  display: flex;
+}
+#sub{
+  color:#6d6e71;
+}
+
+#number{
+  font-size: 50px;
+  margin-bottom: 0px;
+}
+
+#team-logo{
+  filter: invert(100%);
+}
+
+#Avatar{
+  margin-top: 50px;
+}
+
+/* login */
+
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.background{
+    width: 430px;
+    height: 520px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+.background .shape{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
+}
+.shape:first-child{
+    background: linear-gradient(
+        #bfbd83,
+        #a97c7a
+    );
+    left: -80px;
+    top: -80px;
+}
+.shape:last-child{
+    background: linear-gradient(
+        to right,
+        #d0a18f,
+        #f09819
+    );
+    right: -30px;
+    bottom: -80px;
+}
+form{
+    height: 520px;
+    width: 400px;
+    background-color: rgba(255,255,255,0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+}
+form *{
+    font-family: 'Poppins',sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+form h3{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+input{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+::placeholder{
+    color: #e5e5e5;
+}
+#btn-log{
+    margin-top: 50px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.social{
+  margin-top: 30px;
+  display: flex;
+}
+.social div{
+  background: red;
+  width: 150px;
+  border-radius: 3px;
+  padding: 5px 10px 10px 5px;
+  background-color: rgba(255,255,255,0.27);
+  color: #eaf0fb;
+  text-align: center;
+}
+.social div:hover{
+  background-color: rgba(255,255,255,0.47);
+}
+.social .fb{
+  margin-left: 25px;
+}
+.social i{
+  margin-right: 4px;
+}
+#message {
+  color:#080710
+}
+#send{
+  color:#080710
+}
+#Features{
+  color:white;
+  font-family: 'Baskerville BT', sans-serif;
+  font-style: italic ;
+  font-size: 20px;
+  margin-left: 350px;
+  margin-right: 350px;
+
+}
+.usercount{
+  color:white;
+}
+/* Add this CSS to your component or a separate CSS file */
+
+/* Task container */
+.usercount {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Distribute items evenly with padding on both sides */
+  padding: 0 20px; /* Add padding on the left and right */
+  margin-top: 100px;
+}
+
+/* Task card */
+.task-card {
+  flex: 0 0 calc(33.33% - 20px); /* Adjust the width of each task card based on your preference */
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  box-sizing: border-box; /* Ensure padding is included in width calculation */
+}
+
+/* Task title */
+.task-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Task description */
+.task-description {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+/* Task due date */
+.task-due-date {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #999;
+}
+
+/* Task completed */
+.task-completed {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #00a000;
+}
+
+/* Edit and Delete buttons */
+.action-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.edit-button, .delete-button {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  border-radius: 5px;
+}
+
+.edit-button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.edit-button:hover {
+  background-color: #0056b3;
+}
+
+.delete-button {
+  background-color: #ff0000;
+  color: #fff;
+}
+
+.delete-button:hover {
+  background-color: #cc0000;
+}
+
+.add-task-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+}
+
+/* Style form elements */
+.add-task-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.add-task-form input[type="text"],
+.add-task-form input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-task-form input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.add-task-form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-task-form button:hover {
+  background-color: #0056b3;
+}
+
+.styled-button {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  top: 60px; /* Adjust the top position as needed */
+  right: 10px;
+}
+
+.styled-button:hover {
+  background-color: #0056b3;
+}
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.popup-close-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.popup-close-button:hover {
+  background-color: #0056b3;
+}
+
+.user-count-container {
+  background-color: #f5f5f5;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 200px;
+}
+
+.usercount {
+  font-size: 18px;
+  color: #333;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
